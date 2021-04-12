@@ -1,0 +1,30 @@
+header{
+    background-color:rgb(9, 43, 143);
+    color:white;
+    padding: 3px;
+}
+nav{
+    background-color: rgb(56, 95, 153);
+    padding: 2px;
+  }
+section{
+    float: left;
+    width:65% ;
+    background-color: lightblue;
+}
+aside{
+    float: left;
+    width:35% ;
+    background-color: darkblue;
+    color: white;
+}
+footer{  
+    background-color:transparent;
+    padding: 10px;
+    
+}
+.Contenedor::after{
+    content: "";
+    display: block;
+    clear: both;
+}
